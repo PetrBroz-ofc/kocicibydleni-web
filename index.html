@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kočičí bydlení – škrabadla, pelíšky a domečky | Crystal Valley, CZ</title>
+  <meta name="description" content="E-shop chovatelské stanice Crystal Valley, CZ. Škrabadla, pelíšky, domečky a hračky vyzkoušené norskými lesními kočkami. Doprava zdarma od 1 500 Kč.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <span>Doprava zdarma od 1 500 Kč</span><i>·</i><span>Expedice do 48 hodin</span><i>·</i><span>Vyzkoušeno v Crystal Valley</span>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <button class="icon-btn burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+      <a href="#top" class="logo">
+        <span class="logo__name">Kočičí bydlení</span>
+        <span class="logo__sub">by Crystal Valley, CZ</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#obchod" data-cat="skrabadla">Škrabadla</a>
+        <a href="#obchod" data-cat="pelisky">Pelíšky</a>
+        <a href="#obchod" data-cat="domecky">Domečky</a>
+        <a href="#obchod" data-cat="okno">Okno a radiátor</a>
+        <a href="#obchod" data-cat="hracky">Hračky</a>
+      </nav>
+      <div class="header__actions">
+        <button class="icon-btn" id="searchToggle" aria-label="Hledat">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </button>
+        <button class="icon-btn cart-btn" id="cartOpen" aria-label="Košík">
+          <svg viewBox="0 0 24 24"><path d="M5 8h14l-1.2 11.2a1 1 0 0 1-1 .8H7.2a1 1 0 0 1-1-.8L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+    <div class="searchbar" id="searchbar">
+      <div class="container">
+        <input type="search" id="headerSearch" placeholder="Hledat škrabadlo, pelíšek, hračku…" autocomplete="off">
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="label">E-shop chovatelské stanice Crystal Valley, CZ</p>
+          <h1>Domov, kde si vaše kočka <em>vybere místo sama</em></h1>
+          <div class="divider divider--left"><span></span>◆<span></span></div>
+          <p class="hero__lead">Škrabadla, pelíšky a domečky, které u nás denně testují norské lesní kočky. Pevné, velké a krásné – aby obstály i u kocoura s devíti kily a do interiéru se hodily i vám.</p>
+          <div class="hero__cta">
+            <a href="#obchod" class="btn btn--dark">Prohlédnout obchod</a>
+            <a href="#chovatelka" class="btn btn--outline">Proč právě my</a>
+          </div>
+        </div>
+        <div class="hero__media">
+          <div class="hero__img ph ph--hero" aria-hidden="true">
+            <svg viewBox="0 0 200 200"><path d="M60 170V95l40-30 40 30v75"/><path d="M50 102 100 62l50 40"/><circle cx="100" cy="130" r="14"/><path d="M88 120l-4-10 9 5M112 120l4-10-9 5"/><path d="M114 140c14 0 22 8 22 18"/></svg>
+            <span>Foto: kočka v Chaloupce</span>
+          </div>
+          <div class="hero__badge">
+            <strong>12+</strong>
+            <span>let chovu<br>norských lesních koček</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="benefits">
+      <div class="container benefits__grid">
+        <div class="benefit">
+          <svg viewBox="0 0 32 32"><path d="M8 13c0-3 2-5 4-5M24 13c0-3-2-5-4-5"/><ellipse cx="16" cy="20" rx="7" ry="6"/><circle cx="7" cy="17" r="2"/><circle cx="25" cy="17" r="2"/><circle cx="11" cy="10" r="2"/><circle cx="21" cy="10" r="2"/></svg>
+          <div><strong>Testováno kočkami</strong><span>Každý produkt prošel naší smečkou</span></div>
+        </div>
+        <div class="benefit">
+          <svg viewBox="0 0 32 32"><path d="M3 9h15v13H3zM18 13h6l4 4v5h-10"/><circle cx="9" cy="23" r="2.5"/><circle cx="23" cy="23" r="2.5"/></svg>
+          <div><strong>Doprava zdarma od 1 500 Kč</strong><span>Zásilkovna i PPL</span></div>
+        </div>
+        <div class="benefit">
+          <svg viewBox="0 0 32 32"><path d="M6 16a10 10 0 1 0 3-7"/><path d="M5 5v5h5"/><path d="M16 10v6l4 3"/></svg>
+          <div><strong>30 dní na vrácení</strong><span>Bez udání důvodu</span></div>
+        </div>
+        <div class="benefit">
+          <svg viewBox="0 0 32 32"><path d="M16 4 4 10v2h24v-2L16 4ZM7 12v12M13 12v12M19 12v12M25 12v12M4 27h24"/></svg>
+          <div><strong>Pro velká plemena</strong><span>Mainská mývalí, NLK, ragdoll</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section" id="kategorie">
+      <div class="container">
+        <div class="section__head">
+          <p class="label">Kategorie</p>
+          <h2>Vyberte, co vaše kočka <em>potřebuje</em></h2>
+          <div class="divider"><span></span>◆<span></span></div>
+        </div>
+        <div class="cats" id="cats"></div>
+      </div>
+    </section>
+
+    <!-- SHOP -->
+    <section class="section section--shop" id="obchod">
+      <div class="container">
+        <div class="section__head">
+          <p class="label">Obchod</p>
+          <h2>Vybavení, které u nás <em>prošlo zkouškou</em></h2>
+          <div class="divider"><span></span>◆<span></span></div>
+        </div>
+        <div class="toolbar">
+          <div class="chips" id="chips"></div>
+          <div class="toolbar__right">
+            <label class="search-field">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <input type="search" id="shopSearch" placeholder="Hledat v obchodě" autocomplete="off">
+            </label>
+            <select id="sort" aria-label="Řazení">
+              <option value="rec">Doporučené</option>
+              <option value="asc">Cena ↑</option>
+              <option value="desc">Cena ↓</option>
+              <option value="new">Novinky</option>
+            </select>
+          </div>
+        </div>
+        <p class="result-count" id="resultCount"></p>
+        <div class="grid" id="grid"></div>
+        <div class="empty" id="empty" hidden>
+          <p>Nic jsme nenašli. Zkuste jiné slovo nebo kategorii.</p>
+          <button class="btn btn--outline" id="resetFilters">Zobrazit vše</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- BREEDER -->
+    <section class="breeder" id="chovatelka">
+      <div class="container breeder__inner">
+        <div class="breeder__img ph ph--breeder" aria-hidden="true">
+          <svg viewBox="0 0 200 200"><circle cx="100" cy="80" r="26"/><path d="M50 175c0-30 22-50 50-50s50 20 50 50"/><path d="M80 62l-6-18 16 10M120 62l6-18-16 10"/></svg>
+          <span>Foto: chovatelka s kočkou</span>
+        </div>
+        <div class="breeder__text">
+          <p class="label">Od chovatelky</p>
+          <h2>Vybírám jen to, co by mi <em>nevadilo mít doma</em></h2>
+          <div class="divider divider--left"><span></span>◆<span></span></div>
+          <blockquote>„Naše norské lesní kočky jsou velké, těžké a zvědavé. Většina škrabadel z běžných obchodů se pod nimi viklá nebo rozpadne do pár měsíců. Proto jsem začala vybírat a testovat vybavení sama – a to, co u nás vydrží, teď nabízím i vám.“</blockquote>
+          <p class="breeder__sign">Chovatelka, Crystal Valley, CZ</p>
+          <a href="https://www.crystalvalley.cat" target="_blank" rel="noopener" class="btn btn--outline">Navštívit Crystal Valley</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__col footer__about">
+        <span class="logo__name">Kočičí bydlení</span>
+        <span class="logo__sub">by Crystal Valley, CZ</span>
+        <p>E-shop chovatelské stanice norských lesních koček z Železného Brodu. Prodáváme jen to, co u nás doma obstálo.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Nákup</h4>
+        <a href="#">Doprava a platba</a>
+        <a href="#">Reklamace a vrácení</a>
+        <a href="#">Obchodní podmínky</a>
+        <a href="#">Ochrana osobních údajů (GDPR)</a>
+      </div>
+      <div class="footer__col">
+        <h4>Kategorie</h4>
+        <a href="#obchod" data-cat="skrabadla">Škrabadla</a>
+        <a href="#obchod" data-cat="pelisky">Pelíšky</a>
+        <a href="#obchod" data-cat="domecky">Domečky</a>
+        <a href="#obchod" data-cat="okno">Okno a radiátor</a>
+        <a href="#obchod" data-cat="hracky">Hračky</a>
+      </div>
+      <div class="footer__col">
+        <h4>Kontakt</h4>
+        <p>Crystal Valley, CZ<br>468 22 Železný Brod</p>
+        <a href="mailto:info@kocicibydleni.cz">info@kocicibydleni.cz</a>
+        <a href="tel:+420000000000">+420 000 000 000</a>
+        <a href="https://www.crystalvalley.cat" target="_blank" rel="noopener">crystalvalley.cat</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> Kočičí bydlení · Crystal Valley, CZ</span>
+      <span>Web: PEBMedia</span>
+    </div>
+  </footer>
+
+  <!-- CART DRAWER -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="drawer" aria-label="Košík" aria-hidden="true">
+    <div class="drawer__head">
+      <h3>Košík</h3>
+      <button class="icon-btn close" data-close aria-label="Zavřít">×</button>
+    </div>
+    <div class="ship-progress" id="shipProgress">
+      <p id="shipText"></p>
+      <div class="bar"><span id="shipBar"></span></div>
+    </div>
+    <div class="drawer__items" id="cartItems"></div>
+    <div class="drawer__foot">
+      <div class="row"><span>Mezisoučet</span><strong id="cartSubtotal">0 Kč</strong></div>
+      <p class="note">Doprava a platba se vybírají v dalším kroku.</p>
+      <button class="btn btn--gold btn--block" id="checkoutBtn">Pokračovat k objednávce</button>
+      <button class="btn btn--link btn--block" data-close>Pokračovat v nákupu</button>
+    </div>
+  </aside>
+
+  <!-- PRODUCT MODAL -->
+  <div class="modal" id="productModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal__box modal__box--product">
+      <button class="icon-btn close modal__close" data-close aria-label="Zavřít">×</button>
+      <div class="pd" id="pd"></div>
+    </div>
+  </div>
+
+  <!-- CHECKOUT MODAL -->
+  <div class="modal" id="checkoutModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal__box modal__box--checkout">
+      <button class="icon-btn close modal__close" data-close aria-label="Zavřít">×</button>
+      <div class="steps" id="steps">
+        <span class="step is-active">1<em>Doprava a platba</em></span>
+        <span class="step">2<em>Údaje</em></span>
+        <span class="step">3<em>Shrnutí</em></span>
+      </div>
+      <form id="checkoutForm" novalidate>
+        <div class="co-step" data-step="1">
+          <h3>Doprava</h3>
+          <div class="options" id="shipOptions"></div>
+          <h3>Platba</h3>
+          <div class="options" id="payOptions"></div>
+        </div>
+        <div class="co-step" data-step="2" hidden>
+          <h3>Kontaktní údaje</h3>
+          <div class="fields">
+            <label class="field"><span>Jméno a příjmení *</span><input name="name" autocomplete="name" required></label>
+            <label class="field"><span>E-mail *</span><input name="email" type="email" autocomplete="email" required></label>
+            <label class="field"><span>Telefon *</span><input name="phone" type="tel" autocomplete="tel" placeholder="+420" required></label>
+          </div>
+          <h3>Adresa <small id="addrNote"></small></h3>
+          <div class="fields">
+            <label class="field field--wide"><span>Ulice a č. p. <b class="req">*</b></span><input name="street" autocomplete="street-address" data-addr></label>
+            <label class="field"><span>Město <b class="req">*</b></span><input name="city" autocomplete="address-level2" data-addr></label>
+            <label class="field"><span>PSČ <b class="req">*</b></span><input name="zip" inputmode="numeric" autocomplete="postal-code" data-addr></label>
+            <label class="field field--wide"><span>Poznámka k objednávce</span><textarea name="note" rows="2"></textarea></label>
+          </div>
+        </div>
+        <div class="co-step" data-step="3" hidden>
+          <h3>Shrnutí objednávky</h3>
+          <div class="summary" id="summary"></div>
+          <label class="check"><input type="checkbox" name="terms" id="terms"><span>Souhlasím s <a href="#">obchodními podmínkami</a> a beru na vědomí <a href="#">zpracování osobních údajů</a>. *</span></label>
+          <p class="err" id="termsErr" hidden>Pro odeslání je potřeba souhlas s obchodními podmínkami.</p>
+        </div>
+        <div class="co-step co-done" data-step="4" hidden>
+          <div class="done-icon">◆</div>
+          <h3>Děkujeme za objednávku!</h3>
+          <p>Číslo objednávky: <strong id="orderNo"></strong></p>
+          <p class="muted">Potvrzení vám pošleme e-mailem. (Ukázková verze – objednávka se nikam neodesílá.)</p>
+          <button type="button" class="btn btn--dark" data-close>Zpět do obchodu</button>
+        </div>
+        <div class="co-foot" id="coFoot">
+          <div class="co-total"><span>Celkem</span><strong id="coTotal">0 Kč</strong></div>
+          <div class="co-btns">
+            <button type="button" class="btn btn--outline" id="coBack">Zpět</button>
+            <button type="submit" class="btn btn--gold" id="coNext">Pokračovat</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

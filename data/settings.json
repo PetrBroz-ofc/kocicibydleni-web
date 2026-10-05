@@ -1,0 +1,21 @@
+{
+  "currency": "Kč",
+  "freeShippingFrom": 1500,
+  "shipping": [
+    { "id": "zasilkovna", "name": "Zásilkovna", "desc": "Výdejní místo nebo Z-BOX, 1–2 dny", "price": 79, "address": true },
+    { "id": "ppl", "name": "PPL", "desc": "Doručení na adresu, 1–2 dny", "price": 129, "address": true },
+    { "id": "osobni", "name": "Osobní odběr Železný Brod", "desc": "Po domluvě, Crystal Valley", "price": 0, "address": false }
+  ],
+  "payments": [
+    { "id": "karta", "name": "Platba kartou online", "desc": "Visa, Mastercard, Apple Pay", "price": 0 },
+    { "id": "prevod", "name": "Bankovní převod", "desc": "Údaje přijdou e-mailem", "price": 0 },
+    { "id": "dobirka", "name": "Dobírka", "desc": "Platba při převzetí", "price": 39 }
+  ],
+  "categories": [
+    { "id": "skrabadla", "name": "Škrabadla" },
+    { "id": "pelisky", "name": "Pelíšky" },
+    { "id": "domecky", "name": "Domečky" },
+    { "id": "okno", "name": "Okno a radiátor" },
+    { "id": "hracky", "name": "Hračky" }
+  ]
+}
