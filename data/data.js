@@ -37,7 +37,7 @@ window.KB_DATA = { products: [
     "flag": "new",
     "stock": 25,
     "colors": [{ "name": "Přírodní", "hex": "#c8b28a" }],
-    "short": "Vysoký samostatný sloupek – kočka se natáhne v celé délce.",
+    "short": "Vysoký samostatný sloupek, na kterém se kočka natáhne v celé délce.",
     "desc": "Jednoduchý, ale vysoký sloupek s těžkou základnou. Kočky rády škrábou ve vertikální poloze v plné délce těla, proto má 70 cm.",
     "params": { "Výška": "70 cm", "Základna": "40 × 40 cm", "Materiál": "sisal, dřevo" },
     "img": ""
