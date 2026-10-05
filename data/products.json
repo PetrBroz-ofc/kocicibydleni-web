@@ -9,7 +9,7 @@
     "stock": 4,
     "colors": [{ "name": "Přírodní béžová", "hex": "#d9c6a5" }, { "name": "Kamenná šedá", "hex": "#9a958c" }, { "name": "Lesní zelená", "hex": "#4a7c59" }],
     "short": "Masivní věž se dvěma pelíšky a sisalovými kmeny o průměru 12 cm.",
-    "desc": "Stabilní škrabadlo navržené pro velká plemena, jako jsou norské lesní kočky nebo mainské mývalí. Široké kmeny z přírodního sisalu, dva hluboké pelíšky a vyhlídková plošina nahoře. U nás v Crystal Valley ho kočky testují už druhou sezónu.",
+    "desc": "Stabilní škrabadlo navržené pro velká plemena, jako jsou norské lesní kočky nebo mainské mývalí. Široké kmeny z přírodního sisalu, dva hluboké pelíšky a vyhlídková plošina nahoře. Vyzkoušeli jsme ho u nás v Crystal Valley.",
     "params": { "Výška": "165 cm", "Základna": "60 × 60 cm", "Průměr kmenů": "12 cm", "Nosnost plošin": "do 10 kg", "Materiál": "sisal, plyš, dřevotříska E1" },
     "img": ""
   },
@@ -135,7 +135,7 @@
     "stock": 15,
     "colors": [{ "name": "Béžová", "hex": "#d9c6a5" }, { "name": "Oříšková", "hex": "#a07850" }],
     "short": "Závěsná houpačka na radiátor s nastavitelnými háky.",
-    "desc": "Kovový rám s háky pro radiátory hloubky 4–10 cm a měkkým oboustranným potahem (plyš / len). V zimě nejoblíbenější místo v domě.",
+    "desc": "Kovový rám s háky pro radiátory hloubky 4–10 cm a měkkým oboustranným potahem (plyš / len).",
     "params": { "Rozměr": "46 × 30 cm", "Nosnost": "8 kg", "Hloubka radiátoru": "4–10 cm" },
     "img": ""
   },
@@ -163,7 +163,7 @@
     "stock": 34,
     "colors": [{ "name": "Mix přírodních barev", "hex": "#b9ae9c" }],
     "short": "Tři plstěné myšky bez lepidla a plastů.",
-    "desc": "Ručně plstěné myšky z ovčí vlny s ocáskem z kůže. Bez lepidla, bez barviv, bez plastu. Vydrží i zuby kocoura.",
+    "desc": "Ručně plstěné myšky z ovčí vlny s ocáskem z kůže. Jsou bez lepidla, barviv a plastu a vydrží i zuby kocoura.",
     "params": { "Počet kusů": "3", "Délka": "6 cm", "Materiál": "ovčí vlna, kůže" },
     "img": ""
   }
